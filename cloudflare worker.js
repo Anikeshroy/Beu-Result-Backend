@@ -52,7 +52,7 @@ async function handleRequest(request) {
 
     async function fetchBatch(start, base) {
         const batchRegNo = `${base}${String(start).padStart(3, "0")}`;
-        const vercelUrl = `https://${sem}-semester.vercel.app/result?year=${year}&reg_no=${batchRegNo}`;
+        const vercelUrl = `https://${sem}-semesterbeu.vercel.app/result?year=${year}&reg_no=${batchRegNo}`;
 
         try {
             const response = await fetch(vercelUrl);
