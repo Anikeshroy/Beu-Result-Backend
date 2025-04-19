@@ -69,7 +69,7 @@ async function handleRequest(request) {
 
     const fetchPromises = [];
     const isLE = lastThreeDigits >= 901 && lastThreeDigits <= 925;
-    const isRegular = lastThreeDigits >= 1 && lastThreeDigits <= 60;
+    const isRegular = lastThreeDigits >= 1 && lastThreeDigits <= 70;
 
     if (isRegular) {
         // Regular Students
