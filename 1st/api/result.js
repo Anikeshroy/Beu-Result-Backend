@@ -6,6 +6,7 @@ const BASE_URLS = {
     2022: 'http://results.beup.ac.in/ResultsBTech1stSem2022_B2022Pub.aspx',
     2023: 'http://results.beup.ac.in/ResultsBTech1stSem2023_B2023Pub.aspx',
     2024: 'http://results.beup.ac.in/ResultsBTech1stSem2025_B2024Pub.aspx',
+    2025: 'http://results.beup.ac.in/ResultsBTech1stSem2026_B2025Pub.aspx'
 };
 
 // CORS headers
